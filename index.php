@@ -21,24 +21,6 @@ require_once './includes/session.php';
 $module = _MODULES;
 $action = _ACTION;
 
-// $rel = getAll("SELECT * FROM course");
-// echo '<pre>';
-// print_r($rel);
-// echo '</pre>';
-
-// $rel2 = getOne("SELECT * FROM course WHERE id = :id", 3);
-// print_r($rel2);
-// die();
-
-// $data = ['name' => 'Marketing căn bản',
-// 'slug' => 'khoa-hoc-marketing-can-ban',];
-// // insert('course',$data);
-// // echo'success';
-// // die();
-// $condition = 'id = 3';
-// update('course', $data, $condition);
-// die();
-// Accept both ?module=... and ?modules=... (some links may use the plural)
 if (!empty($_GET['module'])) {
     $module = $_GET['module'];
 } elseif (!empty($_GET['modules'])) {
