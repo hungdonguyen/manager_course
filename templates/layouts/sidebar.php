@@ -84,7 +84,7 @@ if (!defined('_HUNG')) {
                         <li class="nav-item">
                             <a href="./layout/unfixed-sidebar.html" class="nav-link">
                                 <i class="nav-icon bi bi-circle"></i>
-                                <p>Danh sách tài khoảnr</p>
+                                <p>Danh sách tài khoản</p>
                             </a>
                         </li>
                         <li class="nav-item">
