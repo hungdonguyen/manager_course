@@ -13,10 +13,10 @@ require_once './includes/session.php';
 // setSession('hung', 'php session test');
 // $a = getSession('hungchika');
 // echo $a;
-deleteSession('hungchika');
-echo '<pre>';
-print_r($_SESSION);
-echo '</pre>';
+// deleteSession('hungchika');
+// echo '<pre>';
+// print_r($_SESSION);
+// echo '</pre>';
 
 $module = _MODULES;
 $action = _ACTION;
